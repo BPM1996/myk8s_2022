@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
    - name: first-container
-     images: nginx
-     potrs:
+     image: nginx
+      potrs: 
       - containerPort: 80  
