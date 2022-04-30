@@ -4,7 +4,7 @@ metadata:
   name: hello-pod
 spec:
   containers:
-   - name: frist-container
+   - name: first-container
      images: nginx
-     potr:
+     potrs:
       - containerPort: 80  
