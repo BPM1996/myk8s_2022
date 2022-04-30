@@ -1,0 +1,10 @@
+apiserver: v1
+kind: Pod
+metadata:
+  name: hello-pod
+spec:
+  containers:
+   - name: frist-container
+     images: nginx
+     potr:
+      - containerPort: 80  
